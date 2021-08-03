@@ -1,0 +1,10 @@
+#!/bin/bash
+counter=0
+iterations=10
+while [ $counter -lt $iterations ]
+do
+  echo "DevOps"
+  counter=$((counter + 1))
+done
+
+
